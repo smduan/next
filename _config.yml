@@ -602,11 +602,6 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 
 # Local search
-search: 
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
   enable: true
